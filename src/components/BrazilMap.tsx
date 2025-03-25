@@ -56,9 +56,9 @@ function BrazilMap() {
         .append("filter")
         .attr("id", "shadow")
         .append("feDropShadow")
-        .attr("dx", 1)
-        .attr("dy", 1)
-        .attr("stdDeviation", 2)
+        .attr("dx", 0.1)
+        .attr("dy", 0.1)
+        .attr("stdDeviation", 1)
         .attr("flood-color", "black");
 
       svg

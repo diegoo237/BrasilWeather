@@ -7,6 +7,7 @@ function App() {
       <div className="flex justify-center items-center w-full max-w-[800px] h-auto aspect-square bg-black">
         <BrazilMap />
       </div>
+      <div className="flex justify-center items-center w-full max-w-[800px] h-auto aspect-square bg-black"></div>
     </main>
   );
 }
